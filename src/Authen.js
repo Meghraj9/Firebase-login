@@ -1,15 +1,17 @@
 import React, {Component} from 'react';
 var firebase = require('firebase');
  // Your web app's Firebase configuration
- var firebaseConfig = {
-    apiKey: "AIzaSyBML6EPdIvp7ZZPOo7NJqlifei8IRve7p4",
-    authDomain: "fir-login-8380d.firebaseapp.com",
-    databaseURL: "https://fir-login-8380d.firebaseio.com",
-    projectId: "fir-login-8380d",
-    storageBucket: "fir-login-8380d.appspot.com",
-    messagingSenderId: "455376110228",
-    appId: "1:455376110228:web:c2218a29a4ccda485a2a81"
-  };
+//Please use your own firebase config details
+var firebaseConfig = {
+  apiKey: "Your Firebase key",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
+};
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
